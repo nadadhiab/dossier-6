@@ -1,0 +1,158 @@
+body {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.595);
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+nav img {
+    width: 150px;
+
+}
+
+nav h1 {
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.584);
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.584);
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+ul li a:hover {
+    color: rgb(228, 210, 184);
+}
+
+section h2 {
+
+    
+    font-size: 20px;
+}
+
+header p {
+    font-size: 20px;
+    padding: 30px;
+    color: rgb(228, 210, 184);
+    margin: 0;
+    line-height: 1.5;
+}
+
+section {
+    background-color: beige;
+    padding: 30px;
+    display: flex;
+
+}
+
+section h3 {
+    color: rgb(228, 210, 184);
+    margin: 0 0 10px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.595);
+
+
+}
+
+section ol {
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.makis {
+    font-family: Arial, Helvetica, sans-serif;
+    b
+}
+
+section p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#Plats {
+    list-style-type: none;
+}
+
+.Dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    transition: all 0.2s ease;
+    top: 200%;
+    font-size: 18px;
+    text-wrap: nowrap;
+
+}
+
+.Dropdown {
+    position: relative;
+}
+
+.Dropdown:hover .Dropdown-content {
+    visibility: visible;
+    top: 100%;
+    background-color:rgba(255, 228, 196, 0.395);
+}
+.form-content{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    border-radius: 10px;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+
+
+}
+ol li{
+    list-style-type: none;
+}
+ol h3{
+    color: rgb(228, 210, 184); 
+}
